@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{5D34267E-E4FF-4FF1-BD14-D5EAB1D10824}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookingAPI.Domain", "src\BookingAPI.Domain\BookingAPI.Domain.csproj", "{BB156AAA-F4A9-4C22-BD6E-B53DDEB0F7EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookingAPI.Application", "src\BookingAPI.Application\BookingAPI.Application.csproj", "{4F6392A8-D033-4BF5-8091-3D331224CDDA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookingAPI.Infrastructure", "src\BookingAPI.Infrastructure\BookingAPI.Infrastructure.csproj", "{98AAD173-1F9F-4AD3-A597-827B604ED7C3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookingAPI.API", "src\BookingAPI.API\BookingAPI.API.csproj", "{5FB814D5-868A-45BC-895F-CBB8C60262C4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{34BED740-F8CA-4F55-91E7-367EBAAE5FAB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookingAPI.UnitTests", "tests\BookingAPI.UnitTests\BookingAPI.UnitTests.csproj", "{192A9ACB-6811-4BC9-9C3C-FD740186EF67}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookingAPI.IntegrationTests", "tests\BookingAPI.IntegrationTests\BookingAPI.IntegrationTests.csproj", "{2AFF8FB9-F7ED-43D9-8DE1-575A02CA62F6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BB156AAA-F4A9-4C22-BD6E-B53DDEB0F7EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB156AAA-F4A9-4C22-BD6E-B53DDEB0F7EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB156AAA-F4A9-4C22-BD6E-B53DDEB0F7EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB156AAA-F4A9-4C22-BD6E-B53DDEB0F7EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F6392A8-D033-4BF5-8091-3D331224CDDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F6392A8-D033-4BF5-8091-3D331224CDDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F6392A8-D033-4BF5-8091-3D331224CDDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F6392A8-D033-4BF5-8091-3D331224CDDA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98AAD173-1F9F-4AD3-A597-827B604ED7C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98AAD173-1F9F-4AD3-A597-827B604ED7C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98AAD173-1F9F-4AD3-A597-827B604ED7C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98AAD173-1F9F-4AD3-A597-827B604ED7C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5FB814D5-868A-45BC-895F-CBB8C60262C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FB814D5-868A-45BC-895F-CBB8C60262C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FB814D5-868A-45BC-895F-CBB8C60262C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FB814D5-868A-45BC-895F-CBB8C60262C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{192A9ACB-6811-4BC9-9C3C-FD740186EF67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{192A9ACB-6811-4BC9-9C3C-FD740186EF67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{192A9ACB-6811-4BC9-9C3C-FD740186EF67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{192A9ACB-6811-4BC9-9C3C-FD740186EF67}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2AFF8FB9-F7ED-43D9-8DE1-575A02CA62F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2AFF8FB9-F7ED-43D9-8DE1-575A02CA62F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2AFF8FB9-F7ED-43D9-8DE1-575A02CA62F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2AFF8FB9-F7ED-43D9-8DE1-575A02CA62F6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BB156AAA-F4A9-4C22-BD6E-B53DDEB0F7EE} = {5D34267E-E4FF-4FF1-BD14-D5EAB1D10824}
+		{4F6392A8-D033-4BF5-8091-3D331224CDDA} = {5D34267E-E4FF-4FF1-BD14-D5EAB1D10824}
+		{98AAD173-1F9F-4AD3-A597-827B604ED7C3} = {5D34267E-E4FF-4FF1-BD14-D5EAB1D10824}
+		{5FB814D5-868A-45BC-895F-CBB8C60262C4} = {5D34267E-E4FF-4FF1-BD14-D5EAB1D10824}
+		{192A9ACB-6811-4BC9-9C3C-FD740186EF67} = {34BED740-F8CA-4F55-91E7-367EBAAE5FAB}
+		{2AFF8FB9-F7ED-43D9-8DE1-575A02CA62F6} = {34BED740-F8CA-4F55-91E7-367EBAAE5FAB}
+	EndGlobalSection
+EndGlobal
