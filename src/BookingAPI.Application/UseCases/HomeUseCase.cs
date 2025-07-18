@@ -16,7 +16,15 @@ public class HomeUseCase
     {
         var homes = await _homeService.GetAvailableHomesAsync(start, end);
 
-        return homes.Select(h => new HomeDTO
+        var requiredDates = Enumerable.Range(0, end.DayNumber - start.DayNumber + 1)
+                                      .Select(offset => start.AddDays(offset))
+                                      .ToList();
+
+        var filteredHomes = homes
+            .Where(home => requiredDates.All(date => home.AvailableSlots.Contains(date)))
+            .ToList();
+
+        return filteredHomes.Select(h => new HomeDTO
         {
             HomeId = h.HomeId,
             HomeName = h.HomeName,
