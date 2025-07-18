@@ -19,7 +19,7 @@ builder.Services.AddSwaggerGen(c =>
         Description = "API to list available homes by date range (Clean Architecture)",
         Contact = new OpenApiContact
         {
-            Name = "Fərid Rajabli",
+            Name = "Farid Rajabli",
             Email = "farid.racabli232gmail.com",
             Url = new Uri("https://github.com/faridrajabli23")
         }
