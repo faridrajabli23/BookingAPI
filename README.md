@@ -1,4 +1,4 @@
-# 🏠 Booking API
+#  Booking API
 
 This project implements a RESTful API for retrieving a list of available homes within a specific date range. The system is built using **.NET 9 Web API**, follows **Clean Architecture**, and uses **in-memory storage** (no database).
 
@@ -8,7 +8,7 @@ Allow users to query homes that are available during a given date range. Each ho
 
 ---
 
-## ⚙️ Technologies Used
+## Technologies Used
 
 - ✅ .NET 9 Web API  
 - ✅ In-Memory Storage (`ConcurrentDictionary`)
@@ -31,6 +31,7 @@ BookingAPI/
 │
 └── tests/
     └── BookingAPI.IntegrationTests/  --> Integration tests for API endpoints
+    └── BookingAPI.UnitTests/  
 ```
 
 ---
